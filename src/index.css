@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F8FAFC; /* Slate-50 background */
+    --bg-secondary: #FFFFFF; /* Pure white card background */
+    --accent-primary: #4F46E5; /* Indigo Accent */
+    --accent-secondary: #0F172A; /* Slate-900 primary text */
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --border-color: #E2E8F0; /* Slate-200 border */
+  }
+
+  .dark {
+    --bg-primary: #0B0F19; /* Midnight dark background */
+    --bg-secondary: #111827; /* Dark card background */
+    --accent-primary: #38BDF8; /* Sky Blue Accent */
+    --accent-secondary: #F9FAFB; /* Slate-50 primary text */
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --border-color: #1F2937; /* Dark border */
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--bg-primary);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  /* Professional Slim Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  
+  .dark ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+  }
+}
+
+@layer utilities {
+  /* Premium Slate & Glass Card Style */
+  .glass-panel {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-panel:hover {
+    border-color: #cbd5e1;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.03), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+    transform: translateY(-2px);
+  }
+
+  .dark .glass-panel {
+    box-shadow: none;
+  }
+
+  .dark .glass-panel:hover {
+    border-color: #334155;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+  }
+}
