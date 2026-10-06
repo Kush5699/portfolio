@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Kush Patel",
     fullName: "Kush Ashvinbhai Patel",
     title: "Machine Learning Researcher & Flutter Developer",
-    subtitle: "M.Tech Graduate Student in ICT (Machine Learning) at Dhirubhai Ambani University (DA-IICT) | CPI: 9.75",
+    subtitle: "M.Tech Graduate Student in ICT (Machine Learning) at Dhirubhai Ambani University (DA-IICT) | CPI: 9.39",
     tagline: "Building high-precision vision systems, cross-modal neural architectures, and intelligent mobile applications.",
     email: "kushp756@gmail.com",
     phone: "+91 9173149905",
@@ -17,14 +17,14 @@ export const portfolioData = {
     resumeUrl: "/Kush_Patel_Resume.pdf",
     profilePic: "/Profile.jpg",
     bio: [
-      "I am an M.Tech Graduate Student in ICT specializing in Machine Learning at Dhirubhai Ambani University (DA-IICT) with a 9.75 CPI.",
+      "I am an M.Tech Graduate Student in ICT specializing in Machine Learning at Dhirubhai Ambani University (DA-IICT) with a 9.39 CPI.",
       "Selected for Amazon ML Summer School 2026 (top 3,000 participants across India) and recognized as a Google Gemini Student Ambassador.",
       "I engineer deep learning systems including visual speech recognition pipelines and dense retail monitoring models, alongside building high-performance, cross-platform mobile applications in Flutter."
     ]
   },
 
   metrics: [
-    { label: "DA-IICT M.Tech CPI", value: "9.75 / 10", highlight: "Academic Excellence", change: "Top Tier" },
+    { label: "DA-IICT M.Tech CPI", value: "9.39 / 10", highlight: "Academic Excellence", change: "Top Tier" },
     { label: "ICPR 2026 Global Rank", value: "3rd Place", highlight: "574 Participants / 328 Teams", change: "Global Stand" },
     { label: "Amazon ML Summer School", value: "Top 3,000", highlight: "Selected across India (2026)", change: "Flagship ML" },
     { label: "Kaggle Bidding Challenge", value: "Solo #1 / #2", highlight: "832K Rows Hierarchical GBDT", change: "Solo Podium" },
@@ -68,7 +68,7 @@ export const portfolioData = {
       degree: "M.Tech (ICT) in Machine Learning",
       institution: "Dhirubhai Ambani University (DA-IICT)",
       duration: "2025 - Present",
-      grade: "CPI: 9.75 / 10",
+      grade: "CPI: 9.39 / 10",
       location: "Gandhinagar, Gujarat",
       highlights: "Focus on Computer Vision, Deep Learning, Multimodal AI, and High Performance Computing."
     },

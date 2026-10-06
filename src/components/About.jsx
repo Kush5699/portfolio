@@ -48,7 +48,7 @@ export default function About() {
               <span className="text-[10px] font-mono text-slate-500 uppercase tracking-widest block font-bold">
                 DA-IICT CPI
               </span>
-              <span className="text-2xl font-black text-sky-500 dark:text-sky-400">9.75 / 10</span>
+              <span className="text-2xl font-black text-sky-500 dark:text-sky-400">9.39 / 10</span>
               <span className="text-[10px] text-slate-400 font-mono block mt-1">Top Tier Standing</span>
             </div>
 
@@ -86,7 +86,7 @@ export default function About() {
             </h3>
             
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-              I am an M.Tech Graduate Student in Information and Communication Technology specializing in Machine Learning at Dhirubhai Ambani University (DA-IICT) with a 9.75 CPI. My work focuses on multimodal deep learning, computer vision, and building high-performance cross-platform software.
+              I am an M.Tech Graduate Student in Information and Communication Technology specializing in Machine Learning at Dhirubhai Ambani University (DA-IICT) with a 9.39 CPI. My work focuses on multimodal deep learning, computer vision, and building high-performance cross-platform software.
             </p>
 
             <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">

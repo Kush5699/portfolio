@@ -1,6 +1,6 @@
 # Kush Patel - 3D Interactive Portfolio
 
-Personal engineering portfolio website for Kush Patel (M.Tech ICT Machine Learning at Dhirubhai Ambani University, CPI: 9.75). Built with React, Vite, Tailwind CSS, and Three.js WebGL canvas animations.
+Personal engineering portfolio website for Kush Patel (M.Tech ICT Machine Learning at Dhirubhai Ambani University, CPI: 9.39). Built with React, Vite, Tailwind CSS, and Three.js WebGL canvas animations.
 
 ---
 

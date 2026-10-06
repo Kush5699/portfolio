@@ -6,7 +6,7 @@ export default function TerminalDrawer({ isOpen, onClose }) {
   const [history, setHistory] = useState([
     { type: 'system', text: 'Kush Patel Workstation Environment [Version 2.5.0-Release]' },
     { type: 'system', text: 'Type "help" or click quick chips below to query candidate engineering telemetry.' },
-    { type: 'output', text: 'Current Status: DA-IICT M.Tech (CPI: 9.75) | Amazon ML Summer School | Gemini Ambassador' },
+    { type: 'output', text: 'Current Status: DA-IICT M.Tech (CPI: 9.39) | Amazon ML Summer School | Gemini Ambassador' },
   ]);
   const [inputVal, setInputVal] = useState('');
   const bottomRef = useRef(null);
@@ -31,7 +31,7 @@ export default function TerminalDrawer({ isOpen, onClose }) {
       newHistory.push({
         type: 'output',
         text: `[Candidate Verified Metrics]
-- DA-IICT M.Tech CPI: 9.75 / 10 (Rank 1 Tier)
+- DA-IICT M.Tech CPI: 9.39 / 10 (Rank 1 Tier)
 - Amazon ML Summer School 2026: Selected Top 3,000 across India
 - Google Gemini Student Ambassador (Selected Jun 2026)
 - ICPR 2026 Agriculture: Global 3rd Place (574 participants / 328 teams)

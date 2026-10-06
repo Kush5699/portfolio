@@ -28,7 +28,7 @@ export default function Footer() {
             Kush Patel | Machine Learning Researcher & Flutter Developer
           </p>
           <p className="text-[11px] text-slate-400">
-            Dhirubhai Ambani University (DA-IICT) | CPI: 9.75
+            Dhirubhai Ambani University (DA-IICT) | CPI: 9.39
           </p>
         </div>
 

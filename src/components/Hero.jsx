@@ -35,7 +35,7 @@ export default function Hero() {
           
           <div className="space-y-2">
             <span className="font-mono text-xs sm:text-sm font-bold tracking-[0.18em] uppercase text-sky-600 dark:text-sky-400 block">
-              DA-IICT M.Tech (CPI: 9.75) | Amazon ML Summer School | Gemini Ambassador
+              DA-IICT M.Tech (CPI: 9.39) | Amazon ML Summer School | Gemini Ambassador
             </span>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black text-slate-900 dark:text-white tracking-tight leading-[0.95]">
